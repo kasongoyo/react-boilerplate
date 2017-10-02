@@ -1,5 +1,5 @@
-# React SSR Boilerplate
-React Boilerplate with Server Side rendering enabled.
+# React Boilerplate
+React Boilerplate.
 
 ## Project Structure
 ```
@@ -16,32 +16,19 @@ React Boilerplate with Server Side rendering enabled.
 ├── production.js
 ├── public
 ├── src
-│   ├── client.js
+│   ├── index.js
 │   ├── components
 │   │   ├── App.js
 │   │   ├── App.scss
 │   │   └── App.test.js
-│   ├── server.js
-│   ├── server_dev.js
-│   ├── template.js
-│   └── template_dev.js
+│ 
 └── yarn.lock
 ```
 
 - `development.js`  
 Server in dev environment  
 - `production.js`  
-Server in production environment  
-- `src/client.js`  
-Client side render
-- `src/server_dev.js`  
-Server side render in dev environment
-- `src/server.js`  
-Server side render in production environment  
-- `src/template_dev.js`   
-index.html equivalent template in dev environment  
-- `src/template.js`  
-index.html equivalent template in prod environment   
+Server in production environment    
 - `config/webpack.config.dev.js`  
 Webpack development configuration  
 - `config/webpack.config.prod.js`  
